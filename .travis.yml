@@ -1,5 +1,3 @@
-before_install:
-  - sudo apt-get install check
-
+before_install: sudo apt-get install check
 language: C
-script: make
+script: make test
